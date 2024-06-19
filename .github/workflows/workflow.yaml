@@ -24,3 +24,14 @@ jobs:
           loadTestConfigFile: 'SampleApp.yaml'
           loadTestResource: 'alttf-r'
           resourceGroup: 'alttfeastus-rg'
+          env: |
+            [
+              {
+              "name": "webapp",
+              "value": "alttf.azurewebsites.net"
+              },
+              {
+              "name": "test",
+              "value": "yolo"
+              }
+            ]
