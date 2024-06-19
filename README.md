@@ -1,4 +1,4 @@
 # alttf
 Azure Load Testing showcase
 
-Update 1
+Update 2
