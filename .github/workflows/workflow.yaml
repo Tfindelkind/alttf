@@ -22,5 +22,5 @@ jobs:
         uses: azure/load-testing@v1
         with:
           loadTestConfigFile: 'SampleApp.yaml'
-          loadTestResource: 'loadTestResourceName'
-          resourceGroup: 'loadTestResourceGroup'
+          loadTestResource: 'alttf-r'
+          resourceGroup: 'alttfeastus-rg'
